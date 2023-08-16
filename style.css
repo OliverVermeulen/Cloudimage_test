@@ -81,3 +81,20 @@
 .toggle-button.active {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
 }
+
+
+@media (min-width: 350px) and (max-width: 480px) {
+  .image-wrapper {
+    min-width: 600px;
+    min-height: 225px;
+    overflow: hidden;
+  }
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+    .image-wrapper {
+      min-width: 600px;
+      min-height: 280px;
+      overflow: hidden;
+    }
+    }
